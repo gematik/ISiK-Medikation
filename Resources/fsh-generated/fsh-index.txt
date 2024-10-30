@@ -36,14 +36,14 @@ MedicationStatement-ExampleISiKMedikationsInformationParkinson3.json     Example
 MedicationStatement-ExampleISiKMedikationsInformationParkinson4.json     ExampleISiKMedikationsInformationParkinson4     Instance    ISiKMedikationsInformation.fsh                      445 - 465
 MedicationStatement-ExampleISiKMedikationsInformationParkinson5.json     ExampleISiKMedikationsInformationParkinson5     Instance    ISiKMedikationsInformation.fsh                      468 - 487
 Patient-PatientinMusterfrau.json                                         PatientinMusterfrau                             Instance    referencedExamples.fsh                              1 - 51
-RiskAssessment-ExampleISiKAMTSBewertung1.json                            ExampleISiKAMTSBewertung1                       Instance    ISiKAMTSBewertung.fsh                               68 - 85
+RiskAssessment-ExampleISiKAMTSBewertung1.json                            ExampleISiKAMTSBewertung1                       Instance    ISiKAMTSBewertung.fsh                               118 - 135
 StructureDefinition-ExtensionISiKAcceptedRisk.json                       ExtensionISiKAcceptedRisk                       Extension   ExtensionISiKAcceptedRisk.fsh                       1 - 14
 StructureDefinition-ExtensionISiKBehandlungsziel.json                    ExtensionISiKBehandlungsziel                    Extension   ExtensionISiKBehandlungsziel.fsh                    1 - 12
 StructureDefinition-ExtensionISiKMedicationRequestReplaces.json          ExtensionISiKMedicationRequestReplaces          Extension   ExtensionISiKMedicationRequestReplaces.fsh          1 - 12
 StructureDefinition-ExtensionISiKMedicationStatementReplaces.json        ExtensionISiKMedicationStatementReplaces        Extension   ExtensionISiKMedicationStatementReplaces.fsh        1 - 12
 StructureDefinition-ExtensionISiKMedikationsart.json                     ExtensionISiKMedikationsart                     Extension   ExtensionISiKMedikationsart.fsh                     1 - 15
 StructureDefinition-ExtensionISiKSelbstmedikation.json                   ExtensionISiKSelbstmedikation                   Extension   ExtensionISiKSelbstmedikation.fsh                   1 - 10
-StructureDefinition-ISiKAMTSBewertung.json                               ISiKAMTSBewertung                               Profile     ISiKAMTSBewertung.fsh                               1 - 65
+StructureDefinition-ISiKAMTSBewertung.json                               ISiKAMTSBewertung                               Profile     ISiKAMTSBewertung.fsh                               1 - 113
 StructureDefinition-ISiKMedikament.json                                  ISiKMedikament                                  Profile     ISiKMedikament.fsh                                  1 - 95
 StructureDefinition-ISiKMedikationTransaction.json                       ISiKMedikationTransaction                       Profile     ISiKMedikationTransaction.fsh                       1 - 26
 StructureDefinition-ISiKMedikationTransactionResponse.json               ISiKMedikationTransactionResponse               Profile     ISiKMedikationTransactionResponse.fsh               1 - 28

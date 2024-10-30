@@ -300,8 +300,8 @@
     "fshName": "ExampleISiKAMTSBewertung1",
     "fshType": "Instance",
     "fshFile": "ISiKAMTSBewertung.fsh",
-    "startLine": 68,
-    "endLine": 85
+    "startLine": 118,
+    "endLine": 135
   },
   {
     "outputFile": "StructureDefinition-ExtensionISiKAcceptedRisk.json",
@@ -357,7 +357,7 @@
     "fshType": "Profile",
     "fshFile": "ISiKAMTSBewertung.fsh",
     "startLine": 1,
-    "endLine": 65
+    "endLine": 113
   },
   {
     "outputFile": "StructureDefinition-ISiKMedikament.json",
