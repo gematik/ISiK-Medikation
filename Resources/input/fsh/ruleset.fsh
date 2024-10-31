@@ -1,14 +1,16 @@
+Alias: $version = 4.0.1
+
 RuleSet: Meta
 * ^status = #active
 * ^experimental = false
 * ^publisher = "gematik GmbH"
-* ^version = "4.0.1"
+* ^version = $version
 * ^date = "2024-10-23"
 
 RuleSet: Meta-CapabilityStatementInformation
 * status = #active
 * experimental = false
-* version = "4.0.1"
+* version = $version
 * publisher = "gematik GmbH"
 * date = "2024-10-23"
 * implementationGuide = "https://gematik.de/fhir/Medikation/ImplementationGuide/ISiK-Medikation"
@@ -17,7 +19,7 @@ RuleSet: Meta-CapabilityStatementInformation
 RuleSet: Meta-CapabilityStatementAMTS
 * status = #active
 * experimental = false
-* version = "4.0.1"
+* version = $version
 * publisher = "gematik GmbH"
 * date = "2024-10-23"
 * implementationGuide = "https://gematik.de/fhir/Medikation/ImplementationGuide/ISiK-Medikation"
@@ -26,7 +28,7 @@ RuleSet: Meta-CapabilityStatementAMTS
 RuleSet: Meta-CapabilityStatementVerordnung
 * status = #active
 * experimental = false
-* version = "4.0.1"
+* version = $version
 * publisher = "gematik GmbH"
 * date = "2024-10-23"
 * implementationGuide = "https://gematik.de/fhir/ISiK/ImplementationGuide/ISiK-Medikation"
@@ -35,7 +37,7 @@ RuleSet: Meta-CapabilityStatementVerordnung
 RuleSet: Meta-CapabilityStatementVerabreichung
 * status = #active
 * experimental = false
-* version = "4.0.1"
+* version = $version
 * publisher = "gematik GmbH"
 * date = "2024-10-23"
 * implementationGuide = "https://gematik.de/fhir/ISiK/ImplementationGuide/ISiK-Medikation"
