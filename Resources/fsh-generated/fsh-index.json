@@ -421,7 +421,7 @@
     "fshType": "Profile",
     "fshFile": "dataTypeProfiles.fsh",
     "startLine": 1,
-    "endLine": 10
+    "endLine": 11
   },
   {
     "outputFile": "ValueSet-ISiKMedikationsartVS.json",

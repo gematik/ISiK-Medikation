@@ -51,7 +51,7 @@ StructureDefinition-ISiKMedikationsInformation.json                      ISiKMed
 StructureDefinition-ISiKMedikationsListe.json                            ISiKMedikationsListe                            Profile     ISiKMedikationsListe.fsh                            1 - 45
 StructureDefinition-ISiKMedikationsVerabreichung.json                    ISiKMedikationsVerabreichung                    Profile     ISiKMedikationsVerabreichung.fsh                    1 - 96
 StructureDefinition-ISiKMedikationsVerordnung.json                       ISiKMedikationsVerordnung                       Profile     ISiKMedikationsVerordnung.fsh                       1 - 212
-StructureDefinition-MedicationQuantity.json                              MedicationQuantity                              Profile     dataTypeProfiles.fsh                                1 - 10
+StructureDefinition-MedicationQuantity.json                              MedicationQuantity                              Profile     dataTypeProfiles.fsh                                1 - 11
 ValueSet-ISiKMedikationsartVS.json                                       ISiKMedikationsartVS                            ValueSet    valueSets.fsh                                       7 - 11
 ValueSet-MedikationsListeListModeVS.json                                 MedikationsListeListModeVS                      ValueSet    valueSets.fsh                                       13 - 19
 ValueSet-SctRouteOfAdministration.json                                   SctRouteOfAdministration                        ValueSet    valueSets.fsh                                       1 - 5
