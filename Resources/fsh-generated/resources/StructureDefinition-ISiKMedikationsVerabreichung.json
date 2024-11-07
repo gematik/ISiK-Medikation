@@ -6,7 +6,7 @@
   "name": "ISiKMedikationsVerabreichung",
   "status": "active",
   "experimental": false,
-  "date": "2024-10-23",
+  "date": "2024-10-31",
   "publisher": "gematik GmbH",
   "description": "Dieses Profil ermöglicht die Abbildung der Verabreichung von Medikamenten für einen Patienten in ISiK Szenarien.",
   "fhirVersion": "4.0.1",
@@ -283,7 +283,7 @@
         "id": "MedicationAdministration.dosage",
         "path": "MedicationAdministration.dosage",
         "short": "Dosierungsangaben",
-        "comment": "Begründung des Must-Support: Basisinformation. Zur vollständig strukturierten Abbildung der zahlreichen Möglichkeiten sind die hier mit Must-Support gekennzeichneten Unterlemente erforderlich gemäß Konsens der ISiK AG Medikation",
+        "comment": "Begründung des Must-Support: Basisinformation. Zur vollständig strukturierten Abbildung der zahlreichen Möglichkeiten sind die hier mit Must-Support gekennzeichneten Unterelemente erforderlich gemäß Konsens der ISiK AG Medikation",
         "mustSupport": true
       },
       {

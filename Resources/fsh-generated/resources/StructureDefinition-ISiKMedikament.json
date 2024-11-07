@@ -6,7 +6,7 @@
   "name": "ISiKMedikament",
   "status": "active",
   "experimental": false,
-  "date": "2024-10-23",
+  "date": "2024-10-31",
   "publisher": "gematik GmbH",
   "description": "Dieses Profil ermöglicht die Abbildung von patientenunabhängigen Informationen zu Medikamenten in ISiK Szenarien.",
   "fhirVersion": "4.0.1",
@@ -226,7 +226,7 @@
         "id": "Medication.ingredient.extension",
         "path": "Medication.ingredient.extension",
         "short": "Wirkstofftyp",
-        "comment": "Begründung des Must-Support: Alignment mit den MII-Profilen\n\n    Hinweis: Handelt es sich um eine Angabe zum Wirkstoff oder zum exakter Inhaltsstoff (z.B. Salze)?",
+        "comment": "Begründung des Must-Support: Alignment mit den MII-Profilen\n\n    Hinweis: Hiermit kann geklärt werden, ob es sich um eine Angabe zum Wirkstoff oder zum exakten Inhaltsstoff (z.B. Salze) handelt.",
         "mustSupport": true
       },
       {
