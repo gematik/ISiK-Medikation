@@ -63,7 +63,7 @@ Description: "Dieses Profil ermöglicht die Abbildung der Verabreichung von Medi
     * ^comment = "Begründung des Must-Support: Angabe zusätzlicher Informationen kann fachlich relevant sein"
 * dosage MS
   * ^short = "Dosierungsangaben"
-  * ^comment = "Begründung des Must-Support: Basisinformation. Zur vollständig strukturierten Abbildung der zahlreichen Möglichkeiten sind die hier mit Must-Support gekennzeichneten Unterlemente erforderlich gemäß Konsens der ISiK AG Medikation"
+  * ^comment = "Begründung des Must-Support: Basisinformation. Zur vollständig strukturierten Abbildung der zahlreichen Möglichkeiten sind die hier mit Must-Support gekennzeichneten Unterelemente erforderlich gemäß Konsens der ISiK AG Medikation"
   * text MS
     * ^short = "Freitext-Dosierungsangabe"
   * site MS

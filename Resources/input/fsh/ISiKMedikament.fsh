@@ -63,7 +63,7 @@ Description: "Dieses Profil ermöglicht die Abbildung von patientenunabhängigen
     * ^short = "Wirkstofftyp"
     * ^comment = "Begründung des Must-Support: Alignment mit den MII-Profilen
 
-    Hinweis: Handelt es sich um eine Angabe zum Wirkstoff oder zum exakter Inhaltsstoff (z.B. Salze)?"
+    Hinweis: Hiermit kann geklärt werden, ob es sich um eine Angabe zum Wirkstoff oder zum exakten Inhaltsstoff (z.B. Salze) handelt."
   * itemCodeableConcept MS
     * ^short = "Bestandteil in codierter Form oder ggf. als Freitext"
     * ^comment = "Begründung des Must-Support: Der Bestandteil muss eindeutig benannt sein"

@@ -95,7 +95,7 @@ Description: "Dieses Profil ermöglicht die Abbildung von Medikationsverordnunge
     * ^comment = "Begründung des Must-Support: Angabe zusätzlicher Informationen kann fachlich relevant sein"
 * dosageInstruction MS
   * ^short = "Dosierungsangaben"
-  * ^comment = "Begründung des Must-Support: Basisinformation. Zur vollständig strukturierten Abbildung der zahlreichen Möglichkeiten sind die hier mit Must-Support gekennzeichneten Unterlemente erforderlich gemäß Konsens der ISiK AG Medikation"
+  * ^comment = "Begründung des Must-Support: Basisinformation. Zur vollständig strukturierten Abbildung der zahlreichen Möglichkeiten sind die hier mit Must-Support gekennzeichneten Unterelemente erforderlich gemäß Konsens der ISiK AG Medikation"
   * text MS
     * ^short = "Freitext-Dosierungsanweisungen"
   * patientInstruction MS
