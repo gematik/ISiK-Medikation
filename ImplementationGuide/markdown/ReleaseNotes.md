@@ -10,8 +10,8 @@ Version: 4.0.1
 
 Datum: tbd
 
-- Korrektur der Description & Status des MedicationQuantity Profils https://github.com/gematik/spec-ISiK-Medikation/pull/141
-
+* Korrektur der Description & Status des MedicationQuantity Profils https://github.com/gematik/spec-ISiK-Medikation/pull/141
+* Dokumentation für MS-Flags https://github.com/gematik/spec-ISiK-Medikation/pull/139
 ----
 
 Version: 4.0.0
