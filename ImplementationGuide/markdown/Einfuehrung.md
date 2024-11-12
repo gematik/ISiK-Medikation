@@ -3,7 +3,7 @@
 ----
 Version: 2.0.3
 
-Datum: 03.07.2024
+Datum: 12.11.2024
 
 Status: Aktiv
 
