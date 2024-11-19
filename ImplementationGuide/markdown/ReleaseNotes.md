@@ -6,9 +6,10 @@ Die erste Ziffer X bezeichnet ein Major-Release und regelt die Gültigkeit von R
 
 Version: 3.0.4
 
-Datum: tbd
+Datum: 20.11.2024
 
 * #Entfernen der MS-Flag für .id, da irreführend (Analog in Stufe 4.0.0) https://github.com/gematik/spec-ISiK-Medikation/pull/137
+* Update ISiK Basismodul Dependency
 
 ----
 
