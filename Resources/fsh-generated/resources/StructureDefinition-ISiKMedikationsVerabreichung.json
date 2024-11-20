@@ -2,11 +2,11 @@
   "resourceType": "StructureDefinition",
   "id": "ISiKMedikationsVerabreichung",
   "url": "https://gematik.de/fhir/isik/v3/Medikation/StructureDefinition/ISiKMedikationsVerabreichung",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "name": "ISiKMedikationsVerabreichung",
   "status": "active",
   "experimental": false,
-  "date": "2024-07-03",
+  "date": "2024-11-20",
   "publisher": "gematik GmbH",
   "description": "Dieses Profil ermöglicht die Abbildung der Verabreichung von Medikamenten für einen Patienten in ISiK Szenarien.",
   "fhirVersion": "4.0.1",
@@ -17,12 +17,6 @@
   "derivation": "constraint",
   "differential": {
     "element": [
-      {
-        "id": "MedicationAdministration.id",
-        "path": "MedicationAdministration.id",
-        "short": "eindeutige ID der Ressource auf dem Server",
-        "mustSupport": true
-      },
       {
         "id": "MedicationAdministration.status",
         "path": "MedicationAdministration.status",
