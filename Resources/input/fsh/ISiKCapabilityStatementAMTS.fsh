@@ -443,7 +443,7 @@ Usage: #definition
         * valueCode = #MAY
       * name = "_profile"
       * definition = "http://hl7.org/fhir/SearchParameter/Resource-profile"
-      * type = #token
+      * type = #uri
     * searchParam[+]
       * extension
         * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
@@ -568,7 +568,7 @@ Usage: #definition
         * valueCode = #MAY
       * name = "_profile"
       * definition = "http://hl7.org/fhir/SearchParameter/Resource-profile"
-      * type = #token
+      * type = #uri
     * searchParam[+]
       * extension
         * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
@@ -837,6 +837,7 @@ Usage: #definition
 * rest.resource[=].searchParam[+].extension.url = $capabilitystatement-expectation
 * rest.resource[=].searchParam[=].extension.valueCode = #SHALL
 * rest.resource[=].searchParam[=].name = "related"
+//// fixme
 * rest.resource[=].searchParam[=].definition = "http://fhir.de/SearchParameter/Condition-related"
 * rest.resource[=].searchParam[=].type = #reference
 * rest.resource[=].searchParam[+].extension.url = $capabilitystatement-expectation

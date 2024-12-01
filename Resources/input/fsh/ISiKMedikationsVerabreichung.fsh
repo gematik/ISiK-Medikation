@@ -161,7 +161,7 @@ Usage: #example
     * unit = "mL/h"
     * system = $cs-ucum
     * code = $cs-ucum#mL/h
-  * route = $cs-sct#255560000 "Intravenous"
+  * route = $cs-edqm#20045000 "Intravenous use"
 
 Instance: ExampleISiKMedikationsVerabreichung4
 InstanceOf: ISiKMedikationsVerabreichung
@@ -192,4 +192,4 @@ Usage: #example
       * unit = "h"
       * system = $cs-ucum
       * code = $cs-ucum#h
-  * route = $cs-sct#255560000 "Intravenous"
+  * route = $cs-edqm#20045000 "Intravenous use"
