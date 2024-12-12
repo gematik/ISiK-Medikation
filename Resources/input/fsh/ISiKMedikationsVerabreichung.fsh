@@ -53,9 +53,12 @@ Description: "Dieses Profil ermöglicht die Abbildung der Verabreichung von Medi
     * ^short = "Referenz auf die verabreichende Person"
     * ^comment = "Begründung des Must-Support: Nachvollziehbarkeit"
     * reference 1..1 MS
+* reasonCode MS
+  * ^short = "Grund der Medikation (Referenz)"
+  * ^comment = "  Festlegung zum MS: Die Elemente .reasonCode und .reasonReference MÜSSEN nach OR-Logik in der Ausgabe verwendet werden, d.h. nur eines MUSS geliefert werden können. Weiterhin MÜSSEN beide Elemente interpretiert werden können."
 * reasonReference MS
   * ^short = "Grund der Medikation (Referenz)"
-  * ^comment = "Begründung des Must-Support: Nachvollziehbarkeit"
+  * ^comment = "  Festlegung zum MS: Die Elemente .reasonCode und .reasonReference MÜSSEN nach OR-Logik in der Ausgabe verwendet werden, d.h. nur eines MUSS geliefert werden können. Weiterhin MÜSSEN beide Elemente interpretiert werden können."
   * reference 1..1 MS
 * note MS
   * text MS
