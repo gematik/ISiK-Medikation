@@ -297,6 +297,7 @@
         "id": "MedicationAdministration.dosage.text",
         "path": "MedicationAdministration.dosage.text",
         "short": "Freitext-Dosierungsangabe",
+        "comment": "Festlegung zum Must-Support: \n    Empfangende Systeme SOLLEN die Freitext-Dosierungsinformation entweder direkt in der Textform persistieren, oder die Informationen in eine alternative (strukturierte) Form umwandeln. Im letzteren Fall KANN auf eine Persistierung in Textform verzichtet werden, um Inkonsistenzen zu vermeiden.\n    \n    Hinweis: Diese Festlegung folgt und spezifiziert folgende MS-Festlegung aus dem [ISiK Basismodul](https://simplifier.net/guide/isik-basis-401/Einfuehrung/UebergreifendeFestlegungen/UebergreifendeFestlegungen_Must-Support-Flags.page.md?version=current): 'Systeme KÖNNEN es darüber hinaus ermöglichen, dass die jeweiligen Informationen vom Anwender ergänzt oder editiert werden.' \n    \n    Zum Beispiel kann die textuelle Information '1L Infusion mit Rate 50ml/h' in eine entsprechende, strukturierte Form überführt werden -d.h. in die Angabe von 'dose' und 'rateQuantity'.",
         "mustSupport": true
       },
       {
