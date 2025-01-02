@@ -6,7 +6,7 @@
   "name": "ISiKMedikationsInformation",
   "status": "active",
   "experimental": false,
-  "date": "2024-10-31",
+  "date": "2024-12-12",
   "publisher": "gematik GmbH",
   "description": "Dieses Profil ermöglicht die Abbildung von Informationen zur Medikation eines Patienten in ISiK Szenarien.",
   "fhirVersion": "4.0.1",
@@ -396,7 +396,7 @@
         "id": "MedicationStatement.reasonCode",
         "path": "MedicationStatement.reasonCode",
         "short": "Grund der Medikation (codiert)",
-        "comment": "Begründung des Must-Support: Nachvollziehbarkeit",
+        "comment": "  Festlegung zum MS: Die Elemente .reasonCode und .reasonReference MÜSSEN nach OR-Logik in der Ausgabe verwendet werden, d.h. nur eines MUSS geliefert werden können. Weiterhin MÜSSEN beide Elemente interpretiert werden können.\n  \n  Begründung zu Must-Support: Konsolidierung mit MII.",
         "mustSupport": true
       },
       {
@@ -430,7 +430,7 @@
         "id": "MedicationStatement.reasonReference",
         "path": "MedicationStatement.reasonReference",
         "short": "Grund der Medikation (Referenz)",
-        "comment": "Begründung des Must-Support: Nachvollziehbarkeit",
+        "comment": "  Festlegung zum MS: Die Elemente .reasonCode und .reasonReference MÜSSEN nach OR-Logik in der Ausgabe verwendet werden, d.h. nur eines MUSS geliefert werden können. Weiterhin MÜSSEN beide Elemente interpretiert werden können.\n  \n  Begründung zu Must-Support: Konsolidierung mit MII.",
         "mustSupport": true
       },
       {
@@ -462,6 +462,7 @@
         "id": "MedicationStatement.dosage.text",
         "path": "MedicationStatement.dosage.text",
         "short": "Freitext-Dosierungsanweisungen",
+        "comment": "Festlegung zum Must-Support: \n    Empfangende Systeme SOLLEN die Freitext-Dosierungsinformation entweder direkt in der Textform persistieren, oder die Informationen in eine alternative (strukturierte) Form umwandeln. Im letzteren Fall KANN auf eine Persistierung in Textform verzichtet werden, um Inkonsistenzen zu vermeiden.\n    \n    Hinweis: Diese Festlegung folgt und spezifiziert folgende MS-Festlegung aus dem [ISiK Basismodul](https://simplifier.net/guide/isik-basis-401/Einfuehrung/UebergreifendeFestlegungen/UebergreifendeFestlegungen_Must-Support-Flags.page.md?version=current): 'Systeme KÖNNEN es darüber hinaus ermöglichen, dass die jeweiligen Informationen vom Anwender ergänzt oder editiert werden.'\n    \n    Zum Beispiel könnte ein empfangendes System die Freitext-Dosierungsinformation in strukturierte Dosierungsinformation umwandeln, um sie in einer Medikationsverwaltung anzuzeigen oder später zu exponieren. Geht es zum Beispiel um eine Angabe zu Tageszeiten der Einnahme in der freitextlichen Dosierungsinformation als 'Morgens, Mittags, Abends', so könnte das empfangende System diese Angabe in strukturierte Dosierungsinformationen umwandeln, die die Einnahmezeiten in kodierter Form mit 'MORN', 'NOON', 'EVE' deklariert.",
         "mustSupport": true
       },
       {

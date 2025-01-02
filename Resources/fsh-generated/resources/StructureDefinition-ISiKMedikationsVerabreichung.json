@@ -6,7 +6,7 @@
   "name": "ISiKMedikationsVerabreichung",
   "status": "active",
   "experimental": false,
-  "date": "2024-10-31",
+  "date": "2024-12-12",
   "publisher": "gematik GmbH",
   "description": "Dieses Profil ermöglicht die Abbildung der Verabreichung von Medikamenten für einen Patienten in ISiK Szenarien.",
   "fhirVersion": "4.0.1",
@@ -265,7 +265,7 @@
         "id": "MedicationAdministration.reasonReference",
         "path": "MedicationAdministration.reasonReference",
         "short": "Grund der Medikation (Referenz)",
-        "comment": "Begründung des Must-Support: Nachvollziehbarkeit",
+        "comment": "  Festlegung zum MS: Die Elemente .reasonCode und .reasonReference MÜSSEN nach OR-Logik in der Ausgabe verwendet werden, d.h. nur eines MUSS geliefert werden können. Weiterhin MÜSSEN beide Elemente interpretiert werden können.",
         "mustSupport": true
       },
       {
@@ -297,6 +297,7 @@
         "id": "MedicationAdministration.dosage.text",
         "path": "MedicationAdministration.dosage.text",
         "short": "Freitext-Dosierungsangabe",
+        "comment": "Festlegung zum Must-Support: \n    Empfangende Systeme SOLLEN die Freitext-Dosierungsinformation entweder direkt in der Textform persistieren, oder die Informationen in eine alternative (strukturierte) Form umwandeln. Im letzteren Fall KANN auf eine Persistierung in Textform verzichtet werden, um Inkonsistenzen zu vermeiden.\n    \n    Hinweis: Diese Festlegung folgt und spezifiziert folgende MS-Festlegung aus dem [ISiK Basismodul](https://simplifier.net/guide/isik-basis-401/Einfuehrung/UebergreifendeFestlegungen/UebergreifendeFestlegungen_Must-Support-Flags.page.md?version=current): 'Systeme KÖNNEN es darüber hinaus ermöglichen, dass die jeweiligen Informationen vom Anwender ergänzt oder editiert werden.' \n    \n    Zum Beispiel kann die textuelle Information '1L Infusion mit Rate 50ml/h' in eine entsprechende, strukturierte Form überführt werden -d.h. in die Angabe von 'dose' und 'rateQuantity'.",
         "mustSupport": true
       },
       {
