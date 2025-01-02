@@ -11,7 +11,7 @@ Version: 4.0.1
 Datum: tbd
 
 * ´improve´ ´test modifying´ Möglicher Breaking Change für Clients: Änderung (Schwächung) der MS-Definition für .reasonCode und reasonReference für MedicationAdministration und MedicationStatement https://github.com/gematik/spec-ISiK-Medikation/pull/140
-* ´improve´ ´test modifying´ 
+* ´improve´ ´test modifying´ Klarstellung zum Umgang mit Freitext-Dosierungsinformationen für empfangende Systeme https://github.com/gematik/spec-ISiK-Medikation/pull/155
 
 ----
 
