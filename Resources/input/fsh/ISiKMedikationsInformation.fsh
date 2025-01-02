@@ -123,6 +123,9 @@ Description: "Dieses Profil ermöglicht die Abbildung von Informationen zur Medi
   * ^comment = "Begründung des Must-Support: Basisinformation. Zur vollständig strukturierten Abbildung der zahlreichen Möglichkeiten sind die hier mit Must-Support gekennzeichneten Unterlemente erforderlich gemäß Konsens der ISiK AG Medikation"
   * text MS
     * ^short = "Freitext-Dosierungsanweisungen"
+    * ^comment = "Hinweis zum Must-Support: Die Verarbeitung von Freitext-Dosierungsanweisungen seitens eines empfangenden Systems kann eine einfache Persistierung bedeuten, sie kann aber auch eine zusätzliche Weiterverarbeitung beinhalten. Dies Entspricht folgender MS-Festlegung aus dem [ISiK Basismodul](https://simplifier.net/guide/isik-basis-401/Einfuehrung/UebergreifendeFestlegungen/UebergreifendeFestlegungen_Must-Support-Flags.page.md?version=current): 'Systeme KÖNNEN es darüber hinaus ermöglichen, dass die jeweiligen Informationen vom Anwender ergänzt oder editiert werden.'
+    
+    Zum Beispiel könnte ein empfangendes System die Freitext-Dosierungsanweisungen in strukturierte Dosierungsanweisungen umwandeln, um sie in einer Medikationsverwaltung anzuzeigen oder später zu exponieren. Geht es zum Beispiel um eine Angabe zu Tageszeiten der Einnahme in der freitextlichen Dosierungsanweisung als 'Morgens, Mittags, Abends', so könnte das empfangende System diese Angabe in strukturierte Dosierungsanweisungen umwandeln, die die Einnahmezeiten in kodierter Form mit 'MORN', 'NOON', 'EVE' deklariert."
   * patientInstruction MS
     * ^short = "besondere Anweisungen für den Patienten"
   * timing MS
