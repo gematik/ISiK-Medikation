@@ -69,6 +69,12 @@ Description: "Dieses Profil ermöglicht die Abbildung der Verabreichung von Medi
   * ^comment = "Begründung des Must-Support: Basisinformation. Zur vollständig strukturierten Abbildung der zahlreichen Möglichkeiten sind die hier mit Must-Support gekennzeichneten Unterelemente erforderlich gemäß Konsens der ISiK AG Medikation"
   * text MS
     * ^short = "Freitext-Dosierungsangabe"
+    * ^comment = "Festlegung zum Must-Support: 
+    Empfangende Systeme SOLLEN die Freitext-Dosierungsinformation entweder direkt in der Textform persistieren, oder die Informationen in eine alternative (strukturierte) Form umwandeln. Im letzteren Fall KANN auf eine Persistierung in Textform verzichtet werden, um Inkonsistenzen zu vermeiden.
+    
+    Hinweis: Diese Festlegung folgt und spezifiziert folgende MS-Festlegung aus dem [ISiK Basismodul](https://simplifier.net/guide/isik-basis-401/Einfuehrung/UebergreifendeFestlegungen/UebergreifendeFestlegungen_Must-Support-Flags.page.md?version=current): 'Systeme KÖNNEN es darüber hinaus ermöglichen, dass die jeweiligen Informationen vom Anwender ergänzt oder editiert werden.' 
+    
+    Zum Beispiel kann die textuelle Information '1L Infusion mit Rate 50ml/h' in eine entsprechende, strukturierte Form überführt werden -d.h. in die Angabe von 'dose' und 'rateQuantity'."
   * site MS
     * ^short = "Körperstelle der Verabreichung"
     * coding MS
