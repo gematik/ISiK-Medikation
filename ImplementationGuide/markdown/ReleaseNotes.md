@@ -11,16 +11,10 @@ Version: 4.0.1
 Datum: tbd
 
 * ´improve´ ´test modifying´ Möglicher Breaking Change für Clients: Änderung (Schwächung) der MS-Definition für .reasonCode und reasonReference für MedicationAdministration und MedicationStatement https://github.com/gematik/spec-ISiK-Medikation/pull/140
-
-
-----
-
-Version: 4.0.1
-
-Datum: tbd
-
 * Korrektur der Description & Status des MedicationQuantity Profils https://github.com/gematik/spec-ISiK-Medikation/pull/141
 * Dokumentation für MS-Flags https://github.com/gematik/spec-ISiK-Medikation/pull/139
+* Formulierungsänderung zur Nutzung von Profilen aus der Basis https://github.com/gematik/spec-ISiK-Medikation/pull/158
+
 ----
 
 Version: 4.0.0
